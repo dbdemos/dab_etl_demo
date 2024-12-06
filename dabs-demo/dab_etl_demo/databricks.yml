@@ -20,7 +20,7 @@ targets:
   prod:
     mode: production
     workspace:
-      host: https://adb-6959653494322738.18.azuredatabricks.net
+      host: https://adb-323392870981458.18.azuredatabricks.net
       # We explicitly specify /Workspace/Users/suchith.nair@databricks.com to make sure we only have a single copy.
       root_path: /Workspace/Users/suchith.nair@databricks.com/.bundle/${bundle.name}/${bundle.target}
     permissions:
