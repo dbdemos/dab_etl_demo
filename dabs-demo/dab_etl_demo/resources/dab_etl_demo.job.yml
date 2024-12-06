@@ -22,7 +22,7 @@ resources:
         
         - task_key: notebook_task2
           depends_on:
-            - task_key: main_task
+            - task_key: notebook_task
 
           job_cluster_key: job_cluster
           notebook_task:
